@@ -1,0 +1,14 @@
+.gallery {
+  align-items: center;
+  border: 0.1rem solid black;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.gallery__item {
+  height: 20rem;
+  width: 30rem;
+}
