@@ -1,0 +1,49 @@
+.nav {
+  border: 0.1rem solid black;
+  height: 10rem;
+  width: 100rem;
+}
+
+.nav__list {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__link {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 5rem;
+  text-align: center;
+  width: 10rem;
+}
+
+.nav__link--01 {
+  background-color: red;
+}
+
+.nav__link--02 {
+  background-color: blue;
+}
+
+.nav__link--03 {
+  background-color: green;
+}
+
+.nav__link--04 {
+  background-color: yellow;
+}
+
+.nav__link--05 {
+  background-color: purple;
+}
