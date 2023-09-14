@@ -1,0 +1,11 @@
+.container {
+  border: 0.1rem solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+}
+
+.container__card {
+  background-color: #aaa;
+  border: 0.1rem solid red;
+}
